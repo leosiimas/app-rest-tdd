@@ -1,0 +1,30 @@
+{
+  "name": "api-rest-tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "eslint-fix": "./node_modules/.bin/eslint src/** test/** --fix -watch",
+    "test-watch": "./node_modules/.bin/jest --watch --verbose=false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-watch": "^6.0.0",
+    "jest": "23.6.0",
+    "supertest": "3.3.0"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "consign": "0.1.6",
+    "express": "4.16.4",
+    "knex": "0.15.2",
+    "knex-logger": "^0.1.0",
+    "pg": "7.7.1"
+  }
+}

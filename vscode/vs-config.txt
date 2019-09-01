@@ -1,0 +1,10 @@
+Snippets => ctrl+shift+p.
+
+Git Controle => 
+    - Aba direita e com botão direito escolher qual arquivo quer add no gitignore
+    - Podemos ver também as mudanças e desfazer as mudanças desde o ultimo commit
+
+Plugins Dica => 
+    - Bracket Pair Colorizer - Auxilia na Organização das Chaves.
+    - GitLens - Uma melhor visao das configuração do GIT Controle.
+    - Todo Tree - Serve marcar posições de coisas para fazer ou fix
