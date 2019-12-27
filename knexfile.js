@@ -8,8 +8,7 @@ module.exports = {
       password: '123456',
       database: 'api_rest',
     },
-    migrations: {
-      directory: 'src/migrations',
-    },
+    migrations: { directory: 'src/migrations' },
+    seeds: { directory: 'src/seeds' },
   },
 };
